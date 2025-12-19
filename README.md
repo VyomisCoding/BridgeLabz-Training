@@ -1,17 +1,17 @@
 # BridgeLabz-Training
 
-17-12-2025
-## DAY-1
+
+## DAY-1 (17-12-2025)
 
 Today, I spent time practicing Core Java by writing several small programs to understand the basics better. I worked on problems related to arithmetic calculations, mathematical formulas, unit conversions, and simple logical conditions. This practice helped me get more comfortable with Java syntax, program flow, and thinking logically while writing code.
 
-18-12-2025
-## DAY-2
+
+## DAY-2 (18-12-2025)
 
 Today, I spent time practicing Core Java by writing multiple small programs to strengthen my understanding of the basics. I worked on problems involving arithmetic operations, mathematical formulas, unit conversions, and simple logical conditions. This practice helped me become more comfortable with Java syntax, program structure, operator usage, and logical thinking while writing code.
 
-19-12-2025
-## DAY-3
+
+## DAY-3 (19-12-2025)
 
 Today, I focused on strengthening my Core Java fundamentals by solving a wide range of logic-based programs. I practiced writing programs using conditional statements, loops, and user input to solve real-world problems. This included working on number-based problems and decision-making logic, which helped me improve my problem-solving approach in Java.
 
