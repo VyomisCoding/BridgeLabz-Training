@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class volumeOfCylinder {
+public class VolumeOfCylinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Double pie = 3.14;

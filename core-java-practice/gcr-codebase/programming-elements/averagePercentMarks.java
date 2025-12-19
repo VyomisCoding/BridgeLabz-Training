@@ -1,4 +1,4 @@
-public class averagePercentMarks {
+public class AveragePercentMarks {
     public static void main(String[] args) {
         int mathsMarks = 94;
         int physicsMarks = 95;

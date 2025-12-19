@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class findAreaOfTriangle {
+public class FindAreaOfTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter base of triangle(in inches): ");

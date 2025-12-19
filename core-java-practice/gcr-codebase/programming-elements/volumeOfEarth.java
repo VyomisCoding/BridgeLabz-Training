@@ -1,4 +1,4 @@
-public class volumeOfEarth {
+public class VolumeOfEarth {
     public static void main(String[] args) {
         double radiusKm=6378;
         double pi=3.14159;

@@ -1,6 +1,6 @@
 
 
-public class ageOfHarry{
+public class AgeOfHarry{
     public static void main(String[] args) {
         int harryBirthYear = 2000;
         int currentYear = 2024;

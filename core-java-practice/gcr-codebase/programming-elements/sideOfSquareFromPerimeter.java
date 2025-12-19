@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class sideOfSquareFromPerimeter {
+public class SideOfSquareFromPerimeter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the perimeter of the square: ");

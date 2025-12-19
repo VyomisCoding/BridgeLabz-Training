@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class findHeightInCentimeters {
+public class FindHeightInCentimeters {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter height in centimeters (Ex-170.0) :");
