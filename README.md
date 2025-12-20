@@ -33,3 +33,5 @@ Today, I practiced Core Java basics by solving many small programs based on real
 2. Practiced arrays (1D & 2D) for storing and processing multiple values
 3. Solved number-based problems like BMI, tables, factors, digit frequency, and grading
 4. Improved confidence in writing simple, clean, and readable Java code
+
+Link to my solutions:- https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays
