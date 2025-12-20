@@ -22,3 +22,14 @@ Key highlights of today’s work:-
 3. Improved understanding of number manipulation and condition-based decision making
 4. Gained better confidence in writing clean and structured Java programs
 
+
+## DAY-4 (20-12-2025)
+
+Today, I practiced Core Java basics by solving many small programs based on real-life examples. I focused on using arrays, loops, and conditions to take user input, process data, and display correct results. This helped me understand how Java programs work step by step.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. Used if-else, switch-case, for loop, and while loop in different programs
+2. Practiced arrays (1D & 2D) for storing and processing multiple values
+3. Solved number-based problems like BMI, tables, factors, digit frequency, and grading
+4. Improved confidence in writing simple, clean, and readable Java code
