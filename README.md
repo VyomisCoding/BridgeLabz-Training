@@ -1,14 +1,35 @@
 # BridgeLabz-Training
 
+📦Project Structure:
+```
+📂 BridgeLabz-Training/
+│
+├── 📁 core-java-practice/        (Branch & Folder Name)
+│   │
+│   ├── 📁 gcr-codebase/
+│   │   ├──🧠 programming-elements/
+│   │   ├──🧠 control-flow/
+│   │   └──🧠 arrays/
+│   │
+│   ├── 📁 leet-code-codebase/
+│   │
+│   └── 📁 scenario-based/
+│
+└── 📄README.md
+```
 
 ## DAY-1 (17-12-2025)
 
 Today, I spent time practicing Core Java by writing several small programs to understand the basics better. I worked on problems related to arithmetic calculations, mathematical formulas, unit conversions, and simple logical conditions. This practice helped me get more comfortable with Java syntax, program flow, and thinking logically while writing code.
 
+Link to the solutions:- [Arithmetic Operations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+
 
 ## DAY-2 (18-12-2025)
 
 Today, I spent time practicing Core Java by writing multiple small programs to strengthen my understanding of the basics. I worked on problems involving arithmetic operations, mathematical formulas, unit conversions, and simple logical conditions. This practice helped me become more comfortable with Java syntax, program structure, operator usage, and logical thinking while writing code.
+
+Link to the solutions:- [Arithmetic Operations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 
 ## DAY-3 (19-12-2025)
@@ -22,6 +43,8 @@ Key highlights of today’s work:-
 3. Improved understanding of number manipulation and condition-based decision making
 4. Gained better confidence in writing clean and structured Java programs
 
+Link to the solutions:- [Control Flow](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flows)
+
 
 ## DAY-4 (20-12-2025)
 
@@ -34,4 +57,4 @@ Today, I practiced Core Java basics by solving many small programs based on real
 3. Solved number-based problems like BMI, tables, factors, digit frequency, and grading
 4. Improved confidence in writing simple, clean, and readable Java code
 
-Link to my solutions:- https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays
+Link to the solutions:- [Arrays Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
