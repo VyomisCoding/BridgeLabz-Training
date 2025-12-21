@@ -57,3 +57,4 @@ public class NumberCheck {
         compareFirstLast(numbers[0], numbers[numbers.length - 1]);
     }
 }
+
