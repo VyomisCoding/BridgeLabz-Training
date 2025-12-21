@@ -6,11 +6,10 @@ public class BMIUsingArrays {
         System.out.print("Enter number of persons: ");
         int n = sc.nextInt();
 
-        double[] height = new double[n];   // in meters
-        double[] weight = new double[n];   // in kg
+        double[] height = new double[n];
+        double[] weight = new double[n]; 
         double[] bmi = new double[n];
         String[] status = new String[n];
-
         // input height and weight
         for (int i = 0; i < n; i++) {
             System.out.println("\nPerson " + (i + 1));
