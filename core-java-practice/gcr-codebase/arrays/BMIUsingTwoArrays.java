@@ -8,7 +8,8 @@ public class BMIUsingTwoArrays {
 
         double[][] personData  = new double[number][3];
         String[] weightStatus = new String[number];
-        for (int i = 0; i < number; i++) {// input height and weight
+        
+        for (int i = 0; i < number; i++) {
             System.out.println("\nPerson " + (i + 1));
             System.out.print("Enter height (in meters): ");
             personData[i][0] = sc.nextDouble();
@@ -19,6 +20,7 @@ public class BMIUsingTwoArrays {
                 i--;
             }
         }
+        
         for (int i = 0; i < number; i++) {// calculate BMI and status
             personData[i][2] = personData[i][1] / (personData[i][0] * personData[i][0]);
 
@@ -31,6 +33,7 @@ public class BMIUsingTwoArrays {
             else
                 weightStatus[i] = "Obese";
         }
+        
         System.out.println("\n--- BMI Report ---");
         for (int i = 0; i < number; i++) {
             System.out.println("Person " + (i + 1) +
