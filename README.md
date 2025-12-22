@@ -58,3 +58,17 @@ Today, I practiced Core Java basics by solving many small programs based on real
 4. Improved confidence in writing simple, clean, and readable Java code
 
 Link to the solutions:- [Arrays Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
+
+## DAY-5 (22-12-2025)
+
+Today, I practiced Core Java by solving multiple programs related to strings, arrays, conditions, and logic building. I worked on real-world and logical problems that helped me understand how to break a problem into steps, write methods, and display output in a proper format. This practice improved my confidence and clarity in Java programming. 🚀
+
+🔑 Key Highlights of Today’s Work
+1. 🧵 Practiced String operations like palindrome check, anagram check, trimming spaces, and character frequency
+2. 🔁 Used for loops, while loops, nested loops, and recursion in different programs
+3. 📊 Worked with 1D and 2D arrays for storing and processing data
+4. 🧠 Solved logic-based problems like calendar display, deck of cards, BMI calculation, grading system, and Rock-Paper-Scissors
+5. 🧩 Implemented multiple logic approaches for the same problem to improve understanding
+6. ✍️ Focused on writing simple, clean, and readable code suitable for lab records and exams
+
+Link to the solutions:- [Strings code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
