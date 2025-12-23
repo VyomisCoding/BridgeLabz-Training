@@ -73,3 +73,15 @@ Today, I practiced Core Java by solving multiple programs related to strings, ar
 6. ✍️ Focused on writing simple, clean, and readable code suitable for lab records and exams
 
 Link to the solutions:- [Strings code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
+
+## DAY-6 (23-12-2025)
+
+Today, I practiced Core Java through two real-life scenario programs — the Election Booth Manager and the Metro Smart Card Fare System. These tasks helped me apply conditions, loops, ternary operators, and methods in practical situations, improving my logic-building and coding clarity.
+
+🔑 Key Highlights
+1. 🗳️ Election Booth Manager: Checked voting eligibility, recorded votes, and handled multiple voters with exit conditions.
+2. 🚇 Metro Smart Card System: Calculated fare using ternary operator, deducted balance, and repeated trips until the user quit or balance ended.
+3. 🧠 Strengthened logical thinking, input validation, and structured coding.
+4. ✍️ Focused on clean, readable output suitable for assignments and lab records.
+
+Link to the solutions:- [Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
