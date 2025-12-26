@@ -78,7 +78,7 @@ Link to the solutions:- [Strings code](https://github.com/VyomisCoding/BridgeLab
 
 Today, I practiced Core Java through two real-life scenario programs — the Election Booth Manager and the Metro Smart Card Fare System. These tasks helped me apply conditions, loops, ternary operators, and methods in practical situations, improving my logic-building and coding clarity.
 
-🔑 Key Highlights
+🔑 Key Highlights of Today’s Work:-
 1. 🗳️ Election Booth Manager: Checked voting eligibility, recorded votes, and handled multiple voters with exit conditions.
 2. 🚇 Metro Smart Card System: Calculated fare using ternary operator, deducted balance, and repeated trips until the user quit or balance ended.
 3. 🧠 Strengthened logical thinking, input validation, and structured coding.
@@ -86,11 +86,11 @@ Today, I practiced Core Java through two real-life scenario programs — the Ele
 
 Link to the solutions:- [Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
 
-## DAY_7 (24-12-2025)
+## DAY-7 (24-12-2025)
 
 Today, I practiced Core Java by solving different programs based on numbers, matrices, geometry, and unit conversions. I focused on writing clean methods, using loops, arrays, and understanding logical steps. This helped me improve my confidence and problem-solving skills in Java. 🚀
 
-🔑 Key Highlights
+🔑 Key Highlights of Today’s Work:-
 1.🧵 Solved number-based problems like factors, Armstrong, Harshad, Spy, Neon, Duck, Buzz, Prime, and Perfect numbers.
 2.🔁 Worked with digit operations: palindrome, reverse digits, largest/smallest digits.
 3.🧠 Built a full Unit Converter with multiple measurement conversions.
@@ -100,3 +100,17 @@ Today, I practiced Core Java by solving different programs based on numbers, mat
 7.🧠 Checked collinearity of points using slope and triangle area formulas.
 
 Link to the solutions: [Methods code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
+
+## DAY-8 (26-12-2025)
+
+Today, I practiced Core Java by solving multiple string-based problems.
+I worked on programs related to string traversal, comparison, and manipulation using basic logic, loops, and conditions. This practice helped me improve my understanding of how strings work internally in Java and how to handle them without using built-in shortcuts.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 🧵 Practiced string operations like reversing strings, palindrome check, anagram check, and removing duplicates
+2. 🔁 Used loops and conditional statements to process characters one by one
+3. 🔍 Worked on string comparison and searching, including lexicographical order and substring counting
+4. ✍️ Improved skills in writing simple, clear, and logic-based Java code suitable for practice and exams
+
+Link to the solutions :- [Strings Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
