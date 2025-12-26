@@ -9,6 +9,7 @@ public class LuckyDraw {
 
             System.out.print("\nVisitor " + visitorCount + " - Enter your lucky number (or -1 to stop): ");
             int luckyNumber = sc.nextInt();
+            
             if (luckyNumber == -1){ // condition to stop the loop
                 System.out.println("Lucky draw closed. Thanks for visiting the mela!");
                 break;
