@@ -91,13 +91,13 @@ Link to the solutions:- [Scenario Based](https://github.com/VyomisCoding/BridgeL
 Today, I practiced Core Java by solving different programs based on numbers, matrices, geometry, and unit conversions. I focused on writing clean methods, using loops, arrays, and understanding logical steps. This helped me improve my confidence and problem-solving skills in Java. 🚀
 
 🔑 Key Highlights of Today’s Work:-
-1.🧵 Solved number-based problems like factors, Armstrong, Harshad, Spy, Neon, Duck, Buzz, Prime, and Perfect numbers.
-2.🔁 Worked with digit operations: palindrome, reverse digits, largest/smallest digits.
-3.🧠 Built a full Unit Converter with multiple measurement conversions.
-4.✍️ Performed matrix operations: addition, subtraction, multiplication, transpose, determinant, and inverse.
-5.🧩 Generated PCM marks and created a scorecard with total, average, and percentage.
-6.🗳️ Displayed a monthly calendar using the Gregorian formula.
-7.🧠 Checked collinearity of points using slope and triangle area formulas.
+1. 🧵 Solved number-based problems like factors, Armstrong, Harshad, Spy, Neon, Duck, Buzz, Prime, and Perfect numbers.
+2. 🔁 Worked with digit operations: palindrome, reverse digits, largest/smallest digits.
+3. 🧠 Built a full Unit Converter with multiple measurement conversions.
+4. ✍️ Performed matrix operations: addition, subtraction, multiplication, transpose, determinant, and inverse.
+5. 🧩 Generated PCM marks and created a scorecard with total, average, and percentage.
+6. 🗳️ Displayed a monthly calendar using the Gregorian formula.
+7. 🧠 Checked collinearity of points using slope and triangle area formulas.
 
 Link to the solutions: [Methods code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
 
