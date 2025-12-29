@@ -114,3 +114,16 @@ I worked on programs related to string traversal, comparison, and manipulation u
 4. ✍️ Improved skills in writing simple, clear, and logic-based Java code suitable for practice and exams
 
 Link to the solutions :- [Strings Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
+
+## DAY-9 (29-12-2025)
+
+Today, I practiced Core Java by solving multiple scenario-based and logic-based programs. I worked on real-life examples, date & time handling, and modular programming using methods. This helped me improve my understanding of loops, conditions, functions, and Java’s Date-Time API, while keeping the code clean and easy to read.
+
+🔑 Key Highlights of Today’s Work:-
+1. 🏋️‍♂️ Solved real-life scenario programs using loops, switch, continue, and break.
+2. 🎬 Implemented user-driven logic with multiple inputs and repeated execution.
+3. ⏰ Practiced Java Date & Time API for time zones, date math, formatting, and comparison.
+4. 🧩 Strengthened modular programming using methods, recursion, and function separation.
+5. ✍️ Focused on clean code, meaningful variables, and readable output for labs and assignments.
+
+Link to the solutions:[Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
