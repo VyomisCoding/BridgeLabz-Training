@@ -7,16 +7,21 @@
 ├── 📁 core-java-practice/        (Branch & Folder Name)
 │   │
 │   ├── 📁 gcr-codebase/
-│   │   ├──🧠 programming-elements/
-│   │   ├──🧠 control-flow/
-│   │   ├──🧠 arrays/
-|   |   ├──🧠 strings/
-|   |   └──🧠 methods 
+│   │   ├──💻 programming-elements/
+│   │   ├──💻 control-flow/
+│   │   ├──💻 arrays/
+|   |   ├──💻 strings/
+|   |   └──💻 methods/
 │   │
 │   ├── 📁 leet-code-codebase/
 │   │
 │   └── 📁 scenario-based/
 │
+├── 📁 oops-practice/             (Branch & Folder Name)
+|   |
+|   └── 📁gcr-codebase/
+|       └──💻 class-and-object/
+|
 └── 📄README.md
 ```
 
@@ -24,14 +29,14 @@
 
 Today, I spent time practicing Core Java by writing several small programs to understand the basics better. I worked on problems related to arithmetic calculations, mathematical formulas, unit conversions, and simple logical conditions. This practice helped me get more comfortable with Java syntax, program flow, and thinking logically while writing code.
 
-Link to the solutions:- [Arithmetic Operations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+Link to the solutions : [Arithmetic Operations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 
 ## DAY-2 (18-12-2025)
 
 Today, I spent time practicing Core Java by writing multiple small programs to strengthen my understanding of the basics. I worked on problems involving arithmetic operations, mathematical formulas, unit conversions, and simple logical conditions. This practice helped me become more comfortable with Java syntax, program structure, operator usage, and logical thinking while writing code.
 
-Link to the solutions:- [Arithmetic Operations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+Link to the solutions : [Arithmetic Operations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
 
 
 ## DAY-3 (19-12-2025)
@@ -45,7 +50,7 @@ Key highlights of today’s work:-
 3. Improved understanding of number manipulation and condition-based decision making
 4. Gained better confidence in writing clean and structured Java programs
 
-Link to the solutions:- [Control Flow](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flows)
+Link to the solutions : [Control Flow](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flows)
 
 
 ## DAY-4 (20-12-2025)
@@ -59,7 +64,7 @@ Today, I practiced Core Java basics by solving many small programs based on real
 3. Solved number-based problems like BMI, tables, factors, digit frequency, and grading
 4. Improved confidence in writing simple, clean, and readable Java code
 
-Link to the solutions:- [Arrays Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
+Link to the solutions : [Arrays Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
 
 ## DAY-5 (22-12-2025)
 
@@ -73,7 +78,7 @@ Today, I practiced Core Java by solving multiple programs related to strings, ar
 5. 🧩 Implemented multiple logic approaches for the same problem to improve understanding
 6. ✍️ Focused on writing simple, clean, and readable code suitable for lab records and exams
 
-Link to the solutions:- [Strings code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
+Link to the solutions : [Strings code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
 
 ## DAY-6 (23-12-2025)
 
@@ -85,7 +90,7 @@ Today, I practiced Core Java through two real-life scenario programs — the Ele
 3. 🧠 Strengthened logical thinking, input validation, and structured coding.
 4. ✍️ Focused on clean, readable output suitable for assignments and lab records.
 
-Link to the solutions:- [Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+Link to the solutions : [Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
 
 ## DAY-7 (24-12-2025)
 
@@ -100,7 +105,7 @@ Today, I practiced Core Java by solving different programs based on numbers, mat
 6. 🗳️ Displayed a monthly calendar using the Gregorian formula.
 7. 🧠 Checked collinearity of points using slope and triangle area formulas.
 
-Link to the solutions: [Methods code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
+Link to the solutions : [Methods code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
 
 ## DAY-8 (26-12-2025)
 
@@ -114,7 +119,7 @@ I worked on programs related to string traversal, comparison, and manipulation u
 3. 🔍 Worked on string comparison and searching, including lexicographical order and substring counting
 4. ✍️ Improved skills in writing simple, clear, and logic-based Java code suitable for practice and exams
 
-Link to the solutions :- [Strings Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
+Link to the solutions : [Strings Code](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/Strings)
 
 ## DAY-9 (29-12-2025)
 
@@ -127,4 +132,18 @@ Today, I practiced Core Java by solving multiple scenario-based and logic-based 
 4. 🧩 Strengthened modular programming using methods, recursion, and function separation.
 5. ✍️ Focused on clean code, meaningful variables, and readable output for labs and assignments.
 
-Link to the solutions:[Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+Link to the solutions : [Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
+
+## DAY-10 (30-12-2025)
+
+Today, I practiced Core Java OOP concepts by solving level-wise and scenario-based programs. I focused on creating classes, using attributes and methods properly, applying conditional logic, and writing clean, readable code. This practice helped me strengthen my understanding of real-world problem solving using Java.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 🧱 Completed Level 1 & Level 2 OOP programs using classes, objects, methods, and Scanner input.
+2. 🎓 Implemented real-world programs like Student Report, ATM, Palindrome check, Movie Booking, and Shopping Cart.
+3. 🎲 Built a Snake & Ladder game with dice logic, win conditions, turn handling, and winner reporting.
+4. 📐 Solved geometry problems including Line Comparison using distance formula, equals() and compareTo().
+5. ✍️ Wrote clean, readable, method-based Java code suitable for labs, exams, and practice.
+
+Link to the solution : [class-and-object](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)
