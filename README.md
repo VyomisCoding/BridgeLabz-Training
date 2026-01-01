@@ -20,7 +20,8 @@
 ├── 📁 oops-practice/             (Branch & Folder Name)
 |   |
 |   └── 📁gcr-codebase/
-|       └──💻 class-and-object/
+|       ├──💻 class-and-object/
+|       └──💻 constructors/
 |
 └── 📄README.md
 ```
@@ -147,3 +148,15 @@ Today, I practiced Core Java OOP concepts by solving level-wise and scenario-bas
 5. ✍️ Wrote clean, readable, method-based Java code suitable for labs, exams, and practice.
 
 Link to the solution : [class-and-object](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object)
+
+## DAY-11 (31-12-2025)
+Today, I practiced Core Java OOP concepts by solving Level 1 practice programs based on constructors, class design, static members, and access modifiers. I focused on understanding how real-world systems can be modeled using classes, variables, and methods. This practice helped me improve my clarity in object-oriented thinking and code structure.
+
+🔑 Key Highlights of Today’s Work:-
+1. 📚 Practiced default, parameterized, and copy constructors using real-world examples like Book, Person, and Hotel Booking.
+2. 🔄 Learned constructor chaining and object copying to understand object initialization clearly.
+3. 🏷️ Understood instance vs class (static) variables and methods through Product, Course, and Vehicle programs.
+4. 🔐 Applied access modifiers (public, protected, private) in Student, Book, BankAccount, and Employee systems.
+5. ✍️ Wrote simple, clean, and method-based Core Java code suitable for labs, exams, and daily practice.
+
+Link to the solution : [constructors](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructors)
