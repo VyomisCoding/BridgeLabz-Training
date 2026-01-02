@@ -160,3 +160,16 @@ Today, I practiced Core Java OOP concepts by solving Level 1 practice programs b
 5. ✍️ Wrote simple, clean, and method-based Core Java code suitable for labs, exams, and daily practice.
 
 Link to the solution : [constructors](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructors)
+
+## DAY-12 (1-1-2026)
+Today, I practiced Core Java OOP and String handling concepts by solving multiple scenario-based programs. I focused on using real-world examples like Library, Employee, Student, Vehicle, and Hospital systems, along with text processing problems. This practice helped me understand how Java concepts are applied in practical situations and improved my overall coding clarity.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 📘 Practiced OOP concepts using Library, Employee, Student, Vehicle, Hospital, and Shopping Cart systems.
+2. 🔁 Used static members, this keyword, final variables, and instanceof to model real-world Java classes.
+3. 🧾 Designed constructors and methods to initialize and display data in a clean and structured way.
+4. 📝 Solved String formatting problems to fix spacing and capitalize sentences automatically.
+5. 🔍 Built a text analysis program to count words, find the longest word, and replace words safely.
+
+Link to the solution : [java-keywords](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/java-keyword)
