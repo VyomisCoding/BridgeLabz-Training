@@ -9,7 +9,7 @@ class Book{
         this.publicationYear = year;
     }
 
-    void displayInfo(){  // Method to display book information
+    void displayInfo(){    // Method to display book information
         System.out.println("Title: " + title);
         System.out.println("Publication Year: " + publicationYear);
     }
