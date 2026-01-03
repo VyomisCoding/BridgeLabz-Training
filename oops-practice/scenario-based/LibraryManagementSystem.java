@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class LibraryManagementSystem{
-    
+    //Method to display the books
     static void displayBooks(String[] title,String[] author,boolean[] status){
         for (int i = 0; i < title.length; i++){
             System.out.println(title[i] + " by " + author[i] + " | " + (status[i] ? "Available" : "Checked Out"));
