@@ -21,7 +21,10 @@
 |   |
 |   └── 📁gcr-codebase/
 |       ├──💻 class-and-object/
-|       └──💻 constructors/
+|       ├──💻 constructors/
+|       ├──💻 class-and-object-diagram/
+|       ├──💻 java-keyword/
+|       └──💻 inheritance/
 |
 └── 📄README.md
 ```
@@ -162,6 +165,7 @@ Today, I practiced Core Java OOP concepts by solving Level 1 practice programs b
 Link to the solution : [constructors](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/constructors)
 
 ## DAY-12 (1-1-2026)
+
 Today, I practiced Core Java OOP and String handling concepts by solving multiple scenario-based programs. I focused on using real-world examples like Library, Employee, Student, Vehicle, and Hospital systems, along with text processing problems. This practice helped me understand how Java concepts are applied in practical situations and improved my overall coding clarity.
 
 🔑 Key Highlights of Today’s Work:-
@@ -172,4 +176,18 @@ Today, I practiced Core Java OOP and String handling concepts by solving multipl
 4. 📝 Solved String formatting problems to fix spacing and capitalize sentences automatically.
 5. 🔍 Built a text analysis program to count words, find the longest word, and replace words safely.
 
-Link to the solution : [java-keywords](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/java-keyword)
+Link to the solution : [java keywords](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/java-keyword)
+
+## DAY-13 (2-1-2026)
+
+Today, I practiced Core Java Object Modeling by solving multiple scenario-based programs focused on object relationships and communication. I worked with real-world systems like Library, Bank, School, University, Hospital, and E-commerce platforms to clearly understand how objects interact using association, aggregation, and composition. This practice improved my understanding of OOP design thinking and class interaction.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 📚 Practiced Aggregation using Library–Book, School–Student, and Order–Product relationships.
+2. 🏦 Implemented Association in Bank–Customer, Student–Course, and Doctor–Patient systems.
+3. 🏢 Understood Composition by modeling Company–Department–Employee and University–Department structures.
+4. 🔄 Modeled many-to-many relationships like Student–Course and Doctor–Patient interactions.
+5. 💬 Implemented object communication using methods like consult(), openAccount(), viewBalance(), enrollCourse(), and assignProfessor().
+
+Link to the solution : [class and object diagram](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object-diagram)
