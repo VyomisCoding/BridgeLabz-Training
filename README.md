@@ -191,3 +191,17 @@ Today, I practiced Core Java Object Modeling by solving multiple scenario-based 
 5. 💬 Implemented object communication using methods like consult(), openAccount(), viewBalance(), enrollCourse(), and assignProfessor().
 
 Link to the solution : [class and object diagram](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/class-and-object-diagram)
+
+## DAY-14 (3-1-2026)
+
+Today, I practiced Core Java Object-Oriented Programming by solving multiple scenario-based problems focused on different types of inheritance and polymorphism. I worked with real-world systems like Animal hierarchy, Employee management, Vehicles, Library, Smart Home, Banking, School, Restaurant, and Vehicle systems to understand how classes are related and how behavior changes using inheritance. This practice improved my clarity on OOP concepts, code reuse, and runtime behavior.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 🐾 Implemented basic inheritance and method overriding using Animal, Employee, and Vehicle hierarchies.
+2. 📖 Practiced Single Inheritance through Book–Author and Device–Thermostat systems.
+3. 🔗 Understood Multilevel Inheritance with Order–ShippedOrder–DeliveredOrder and Course hierarchies.
+4. 🏦 Applied Hierarchical Inheritance in Bank Account types and School role management systems.
+5. 🧩 Simulated Hybrid Inheritance using interfaces in Restaurant and Vehicle management systems to handle multiple behaviors.
+
+Link to the solution :- [inheritance](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
