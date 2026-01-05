@@ -205,3 +205,15 @@ Today, I practiced Core Java Object-Oriented Programming by solving multiple sce
 5. 🧩 Simulated Hybrid Inheritance using interfaces in Restaurant and Vehicle management systems to handle multiple behaviors.
 
 Link to the solution :- [inheritance](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/inheritance)
+
+## DAY-15 (4-1-2026)
+
+Today, I worked on advanced Core Java OOP concepts by building three real-world, scenario-based systems: an Employee Management System, an E-Commerce Platform, and a Vehicle Rental System. I focused on clean design using abstraction, interfaces, encapsulation, and polymorphism to model scalable and maintainable applications. This practice strengthened my understanding of object-oriented design and real-world system modeling.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 👨‍💼 Built an Employee Management System using abstraction, interfaces, encapsulation, and polymorphism.
+2. 🛒 Developed an E-Commerce Platform with discount, tax calculation, and polymorphic pricing logic.
+3. 🚗 Created a Vehicle Rental System using abstract vehicle models and insurance interfaces.
+4. 🔒 Applied encapsulation to protect sensitive data using getters and setters.
+5. 🔄 Demonstrated runtime polymorphism by processing objects through base class references.
