@@ -24,7 +24,8 @@
 |       ├──💻 constructors/
 |       ├──💻 class-and-object-diagram/
 |       ├──💻 java-keyword/
-|       └──💻 inheritance/
+|       ├──💻 inheritance/
+|       └──💻 oops-pillars/
 |
 └── 📄README.md
 ```
@@ -217,3 +218,19 @@ Today, I worked on advanced Core Java OOP concepts by building three real-world,
 3. 🚗 Created a Vehicle Rental System using abstract vehicle models and insurance interfaces.
 4. 🔒 Applied encapsulation to protect sensitive data using getters and setters.
 5. 🔄 Demonstrated runtime polymorphism by processing objects through base class references.
+
+Link to the solutions :- [opps-pillars](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oops-pillars)
+
+## DAY-16 (5-1-2026)
+
+Today, I practiced advanced Core Java OOP by building multiple real-world, scenario-based systems such as Banking, Library, Food Delivery, Hospital, and Ride-Hailing applications. I focused on abstraction, interfaces, encapsulation, and polymorphism to design clean, secure, and scalable object-oriented solutions. This practice strengthened my confidence in modeling complex systems using OOP principles.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 🏦 Designed a Banking System using abstract accounts, interest calculation, and loan interfaces with polymorphism.
+2. 📚 Built a Library Management System using abstract items, reservation interfaces, and polymorphic item handling.
+3. 🍔 Developed an Online Food Delivery System with abstract food models, discounts, and order-level polymorphism.
+4. 🏥 Created a Hospital Patient Management System securing medical data and handling billing via runtime polymorphism.
+5. 🚕 Implemented a Ride-Hailing Application using abstract vehicles, GPS interfaces, and dynamic fare calculation.
+
+Link to the solutions :- [opps-pillars](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oops-pillars)
