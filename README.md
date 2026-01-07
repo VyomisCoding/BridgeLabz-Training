@@ -17,15 +17,20 @@
 │   │
 │   └── 📁 scenario-based/
 │
+|
 ├── 📁 oops-practice/             (Branch & Folder Name)
 |   |
-|   └── 📁gcr-codebase/
-|       ├──💻 class-and-object/
-|       ├──💻 constructors/
-|       ├──💻 class-and-object-diagram/
-|       ├──💻 java-keyword/
-|       ├──💻 inheritance/
-|       └──💻 oops-pillars/
+|   ├── 📁 gcr-codebase/
+|   |   ├──💻 class-and-object/
+|   |   ├──💻 constructors/
+|   |   ├──💻 class-and-object-diagram/
+|   |   ├──💻 java-keyword/
+|   |   ├──💻 inheritance/
+|   |   └──💻 oops-pillars/
+|   |
+|   ├── 📁 leet-code-codebase/
+|   |
+|   └── 📁 scenario-based/ 
 |
 └── 📄README.md
 ```
@@ -227,10 +232,24 @@ Today, I practiced advanced Core Java OOP by building multiple real-world, scena
 
 🔑 Key Highlights of Today’s Work:-
 
-1. 🏦 Designed a Banking System using abstract accounts, interest calculation, and loan interfaces with polymorphism.
-2. 📚 Built a Library Management System using abstract items, reservation interfaces, and polymorphic item handling.
-3. 🍔 Developed an Online Food Delivery System with abstract food models, discounts, and order-level polymorphism.
-4. 🏥 Created a Hospital Patient Management System securing medical data and handling billing via runtime polymorphism.
-5. 🚕 Implemented a Ride-Hailing Application using abstract vehicles, GPS interfaces, and dynamic fare calculation.
-
+1. 🏦 Built a Banking System using abstraction, interfaces, and polymorphism.
+2. 📚 Developed a Library Management System with abstract items and reservations.
+3. 🍔 Created an Online Food Delivery System using abstract food models and discounts.
+4. 🏥 Designed a Hospital Management System with secure data and polymorphic billing.
+5. 🚕 Implemented a Ride-Hailing App using abstract vehicles and dynamic fare logic.
+   
 Link to the solutions :- [opps-pillars](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/oops-pillars)
+
+## DAY-17 (6-1-2026)
+
+Today, I worked on strengthening my Core Java fundamentals by implementing multiple real-world, scenario-based applications focused on arrays, strings, methods, and exception handling. Each problem was designed to improve logical thinking, clean method design, and robust error handling using custom exceptions. This practice helped me better understand how Java concepts are applied in practical software development scenarios.
+
+🔑 Key Highlights of Today’s Work
+
+1. 📊 Created a Student Score Analyzer using arrays, methods, and custom exceptions.
+2. 🧾 Built an Invoice Generator with string parsing and invoice validation logic.
+3. 🍽️ Developed a Cafeteria Menu App using arrays and modular methods.
+4. 🏦 Implemented a Bank Account Manager with safe deposit and withdrawal operations.
+5. 🧮 Designed a Math Utility Class for factorial, prime, GCD, and Fibonacci calculations.
+
+Link to the solutions :- [scenario based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
