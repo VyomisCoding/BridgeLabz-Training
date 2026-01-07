@@ -1,22 +1,43 @@
 import java.util.*;
 
+class InvalidInvoiceFormatException extends Exception{   // Custom Exception as required
+    public InvalidInvoiceFormatException(String message){
+        super(message);
+    }
+}
+
 public class FreelancersInvoiceGenerator {
-    public static String[] parseInvoice(String input){   // This method splits the full invoice string into individual tasks
-        // Example input format:
-        return input.split(",");    // Logo Design - 3000 INR, Web Page - 4500 INR
+    public static String[] parseInvoice(String input){    // This method splits the full invoice string into individual tasks
+        // Example input: Logo Design - 3000 INR, Web Page - 4500 INR
+        return input.split(",");
     }
 
-    public static int getTotalAmount(String[] tasks){  // This method extracts amounts and calculates total invoice value
+    public static int getTotalAmount(String[] tasks) throws InvalidInvoiceFormatException{   // This method extracts amounts and calculates total invoice value
         int total = 0;
+        for (String task : tasks){
+            if (!task.contains("-")){  // Check if dash is present
+                throw new InvalidInvoiceFormatException("Missing '-' in task: " + task.trim());
+            }
+            String[] parts = task.split("-");
+            // Check if amount part exists
+            if (parts.length < 2) {
+                throw new InvalidInvoiceFormatException("Invalid format for task: " + task.trim());
+            }
 
-        for (String task : tasks) {
-            String[] parts = task.split("-");    // Each task looks like: "Logo Design - 3000 INR"
+            String amountPart = parts[1].trim(); // e.g. "3000 INR"
+            String[] amountSplit = amountPart.split(" ");
 
-            // Take the amount part and remove extra spaces
-            String amountPart = parts[1].trim(); // "3000 INR"
-            String amount = amountPart.split(" ")[0]; // "3000"
-
-            total += Integer.parseInt(amount);
+            // Check if numeric amount is present
+            if (amountSplit.length == 0) {
+                throw new InvalidInvoiceFormatException("Amount missing in task: " + task.trim());
+            }
+            
+            try {
+                int amount = Integer.parseInt(amountSplit[0]);
+                total += amount;
+            } catch (NumberFormatException e) {
+                throw new InvalidInvoiceFormatException("Invalid amount in task: " + task.trim());
+            }
         }
         return total;
     }
@@ -33,16 +54,19 @@ public class FreelancersInvoiceGenerator {
         System.out.print("Enter invoice details: ");
         String input = sc.nextLine();
 
-        String[] tasks = parseInvoice(input);   // Parsing invoice string
+        try {
+            String[] tasks = parseInvoice(input);
 
-        System.out.println("\nInvoice Breakdown:");   // Display parsed invoice items
-        for (String task : tasks) {
-            System.out.println(task.trim());
+            System.out.println("\nInvoice Breakdown:");
+            for (String task : tasks) {
+                System.out.println(task.trim());
+            }
+
+            int totalAmount = getTotalAmount(tasks);
+            System.out.println("\nTotal Invoice Amount: " + totalAmount + " INR");
+
+        } catch (InvalidInvoiceFormatException e) {
+            System.out.println("\nError: " + e.getMessage());
         }
-
-        int totalAmount = getTotalAmount(tasks);   // Calculating total amount
-
-        System.out.println("\nTotal Invoice Amount: " + totalAmount + " INR"); // Display total invoice amount
-        
     }
 }
