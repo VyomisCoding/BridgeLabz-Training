@@ -253,3 +253,17 @@ Today, I worked on strengthening my Core Java fundamentals by implementing multi
 5. 🧮 Designed a Math Utility Class for factorial, prime, GCD, and Fibonacci calculations.
 
 Link to the solutions :- [scenario based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+## DAY-18 (7-1-2026)
+
+Today, I worked on real-world Core Java applications to strengthen my understanding of OOP, interfaces, polymorphism, collections, exception handling, and multithreading. These scenarios helped me apply Java concepts to practical system design and improve clean, modular coding practices.
+
+🔑 Key Highlights
+
+1. 🚕 Cab Booking System with fare calculation and driver assignment
+2. 🏦 Online Banking System with thread-safe transactions
+3. 📱 Contact Organizer using ArrayList and input validation
+4. 📝 Online Quiz Result Processor with scoring and grading
+5. 🎓 Student Report Generator with marks validation and formatted reports
+
+Link to the solutions :- [scenario based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
