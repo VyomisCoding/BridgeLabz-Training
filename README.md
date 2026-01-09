@@ -244,7 +244,7 @@ Link to the solutions :- [opps-pillars](https://github.com/VyomisCoding/BridgeLa
 
 Today, I worked on strengthening my Core Java fundamentals by implementing multiple real-world, scenario-based applications focused on arrays, strings, methods, and exception handling. Each problem was designed to improve logical thinking, clean method design, and robust error handling using custom exceptions. This practice helped me better understand how Java concepts are applied in practical software development scenarios.
 
-🔑 Key Highlights of Today’s Work
+🔑 Key Highlights of Today’s Work:-
 
 1. 📊 Created a Student Score Analyzer using arrays, methods, and custom exceptions.
 2. 🧾 Built an Invoice Generator with string parsing and invoice validation logic.
@@ -258,7 +258,7 @@ Link to the solutions :- [scenario based](https://github.com/VyomisCoding/Bridge
 
 Today, I worked on real-world Core Java applications to strengthen my understanding of OOP, interfaces, polymorphism, collections, exception handling, and multithreading. These scenarios helped me apply Java concepts to practical system design and improve clean, modular coding practices.
 
-🔑 Key Highlights
+🔑 Key Highlights of Today’s Work:-
 
 1. 🚕 Cab Booking System with fare calculation and driver assignment
 2. 🏦 Online Banking System with thread-safe transactions
@@ -267,3 +267,19 @@ Today, I worked on real-world Core Java applications to strengthen my understand
 5. 🎓 Student Report Generator with marks validation and formatted reports
 
 Link to the solutions :- [scenario based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
+## DAY-19 (8-1-2026)
+
+Today, I focused on mastering Linked List data structures in Java by implementing multiple real-world, scenario-based systems using Singly Linked Lists, Doubly Linked Lists, and Circular Linked Lists. Each problem strengthened my understanding of dynamic memory structures, pointer manipulation, and efficient data traversal. This practice helped me clearly understand when and why different types of linked lists are used in real software systems.
+
+🔑 Key Highlights of Today’s Work
+
+1. 🎓 Implemented real-world systems using Singly Linked Lists (student records, inventory, social connections).
+2. 🎬 Built applications using Doubly Linked Lists with forward/backward traversal (movies, library, undo/redo).
+3. ⏰ Designed Circular Linked List–based systems for continuous processing (task scheduler, ticketing, CPU scheduling).
+4. 🔍 Applied efficient CRUD operations, searching, updating, and deletion across all linked list types.
+5. 🧠 Strengthened understanding of data structure design, pointer manipulation, and traversal logic.
+
+Link to the solutions :- [linked list](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
+
+
