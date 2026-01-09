@@ -7,6 +7,7 @@
 ├── 📁 core-java-practice/        (Branch & Folder Name)
 │   │
 │   ├── 📁 gcr-codebase/
+|   |   |
 │   │   ├──💻 programming-elements/
 │   │   ├──💻 control-flow/
 │   │   ├──💻 arrays/
@@ -21,6 +22,7 @@
 ├── 📁 oops-practice/             (Branch & Folder Name)
 |   |
 |   ├── 📁 gcr-codebase/
+|   |   |
 |   |   ├──💻 class-and-object/
 |   |   ├──💻 constructors/
 |   |   ├──💻 class-and-object-diagram/
@@ -30,7 +32,19 @@
 |   |
 |   ├── 📁 leet-code-codebase/
 |   |
-|   └── 📁 scenario-based/ 
+|   └── 📁 scenario-based/
+|
+|
+├── 📁 dsa-practice/              (Branch & Folder Name)
+|   |
+|   ├── 📁 gcr-codebase/
+|   |   |
+|   |   └──💻 linkedlist/
+|   |
+|   ├── 📁 leet-code-codebase/
+|   |
+|   └── 📁 scenario-based/
+|   
 |
 └── 📄README.md
 ```
