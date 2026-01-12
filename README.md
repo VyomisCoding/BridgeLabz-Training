@@ -296,4 +296,15 @@ Today, I focused on mastering Linked List data structures in Java by implementin
 
 Link to the solutions :- [linked list](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
 
+## DAY-20 (9-1-2026)
+
+Today, I worked on real-world Core Java scenarios to strengthen my understanding of OOP concepts, interfaces, inheritance, polymorphism, and collections through CRUD-based system design.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 🏥 Hospital Patient Management System – CRUD with inheritance, interfaces, and polymorphism
+2. 🚗 Vehicle Rental Application – Vehicle hierarchy with interface-based rent calculation
+3. ✈️ Flight Booking System – Search and booking using arrays, lists, and string operations
+
+
 
