@@ -306,5 +306,19 @@ Today, I worked on real-world Core Java scenarios to strengthen my understanding
 2. 🚗 Vehicle Rental Application – Vehicle hierarchy with interface-based rent calculation
 3. ✈️ Flight Booking System – Search and booking using arrays, lists, and string operations
 
+## DAY-21 (12-1-2026)
+
+Today, I worked on multiple real-world, scenario-based Core Java applications to strengthen my understanding of OOP principles, interfaces, inheritance, polymorphism, exception handling, and concurrent system behavior. These problems helped me design structured CRUD systems similar to real enterprise applications.
+
+🔑 Key Highlights of Today’s Work
+
+1. 🏦 Designed secure systems for banking, payments, and transactions using OOP and exception handling.
+2. 🛒 Built commerce and inventory-based applications with order processing and stock management.
+3. 🎓 Implemented student and course management systems using abstraction and encapsulation.
+4. 🚕 Developed service-based applications like cab booking and hospital management with polymorphic behavior.
+5. 📚 Strengthened real-world system design skills using interfaces, inheritance hierarchies, and custom exceptions.
+
+Link to the solution :- [oops-scenario-based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
+
 
 
