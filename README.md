@@ -39,7 +39,8 @@
 |   |
 |   ├── 📁 gcr-codebase/
 |   |   |
-|   |   └──💻 linkedlist/
+|   |   ├──💻 linkedlist/
+|   |   └──💻 stacks-queue-hashmap/
 |   |
 |   ├── 📁 leet-code-codebase/
 |   |
@@ -286,7 +287,7 @@ Link to the solutions :- [scenario based](https://github.com/VyomisCoding/Bridge
 
 Today, I focused on mastering Linked List data structures in Java by implementing multiple real-world, scenario-based systems using Singly Linked Lists, Doubly Linked Lists, and Circular Linked Lists. Each problem strengthened my understanding of dynamic memory structures, pointer manipulation, and efficient data traversal. This practice helped me clearly understand when and why different types of linked lists are used in real software systems.
 
-🔑 Key Highlights of Today’s Work
+🔑 Key Highlights of Today’s Work:-
 
 1. 🎓 Implemented real-world systems using Singly Linked Lists (student records, inventory, social connections).
 2. 🎬 Built applications using Doubly Linked Lists with forward/backward traversal (movies, library, undo/redo).
@@ -310,7 +311,7 @@ Today, I worked on real-world Core Java scenarios to strengthen my understanding
 
 Today, I worked on multiple real-world, scenario-based Core Java applications to strengthen my understanding of OOP principles, interfaces, inheritance, polymorphism, exception handling, and concurrent system behavior. These problems helped me design structured CRUD systems similar to real enterprise applications.
 
-🔑 Key Highlights of Today’s Work
+🔑 Key Highlights of Today’s Work:-
 
 1. 🏦 Designed secure systems for banking, payments, and transactions using OOP and exception handling.
 2. 🛒 Built commerce and inventory-based applications with order processing and stock management.
@@ -320,5 +321,18 @@ Today, I worked on multiple real-world, scenario-based Core Java applications to
 
 Link to the solution :- [oops-scenario-based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
+## DAY-22 (13-1-2026)
+
+Today, I worked on advanced scenario-based Core Java and Data Structure applications, combining real-world system design with sorting algorithms, linked lists, queues, and OOP principles. These problems helped me understand how different data structures and algorithms are chosen based on real-time requirements, performance, and scalability.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 📝 Built secure systems like online exams, voting, hotel reservations, and digital wallets using CRUD operations and exception handling.
+2. 🚦 Implemented Circular Linked List + Queue for real-time traffic and roundabout vehicle flow management.
+3. 📚 Applied Insertion Sort for real-time, nearly sorted data scenarios (SmartShelf book arrangement).
+4. 🎟️ Used Quick Sort for high-performance sorting in large-scale systems (event ticket price optimization).
+5. 🧠 Strengthened understanding of data structures, sorting strategies, polymorphism, and system-level design decisions.
+
+Link to the solutions :- [oops-scenario-based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
 
