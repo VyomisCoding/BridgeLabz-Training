@@ -335,4 +335,18 @@ Today, I worked on advanced scenario-based Core Java and Data Structure applicat
 
 Link to the solutions :- [oops-scenario-based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based)
 
+## DAY-23 (14-1-2026)
+
+Today, I practiced stack, queue, deque, and hash map–based problem solving in Java, focusing on optimizing time and space complexity using appropriate data structures. These problems improved my understanding of real-world algorithmic patterns and efficient data handling.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 📦 Implemented stack-based solutions such as Queue using Stacks and recursive Stack Sorting to master LIFO behavior and recursion.
+2. 📈 Solved Stock Span Problem using stacks to efficiently process consecutive elements with better-than-brute-force performance.
+3. 🪟 Applied Deque-based Sliding Window Maximum technique to handle range-based queries in linear time.
+4. ⛽ Designed a Circular Tour (Petrol Pump) solution using queues to simulate real-world circular traversal and resource management.
+5. 🧮 Practiced hash map–based problems including Two Sum, Zero-Sum Subarrays, Longest Consecutive Sequence, and Custom Hash Map implementation.
+
+Link to the Solution :- [stack-queue-hashmap](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stack-queue-hashmap)
+
 
