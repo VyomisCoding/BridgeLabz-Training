@@ -40,7 +40,8 @@
 |   ├── 📁 gcr-codebase/
 |   |   |
 |   |   ├──💻 linkedlist/
-|   |   └──💻 stacks-queue-hashmap/
+|   |   ├──💻 stacks-queue-hashmap/
+|   |   └──💻 sorting/
 |   |
 |   ├── 📁 leet-code-codebase/
 |   |
@@ -349,4 +350,16 @@ Today, I practiced stack, queue, deque, and hash map–based problem solving in 
 
 Link to the Solution :- [stack-queue-hashmap](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/stack-queue-hashmap)
 
+## DAY-24 (15-1-2026)
 
+Today, I focused on mastering Sorting Algorithms in Java by implementing multiple real-world, scenario-based problems using Bubble Sort, Insertion Sort, Merge Sort, Quick Sort, Selection Sort, Heap Sort, and Counting Sort. Each problem strengthened my understanding of comparison-based vs non-comparison sorting, recursion, heap operations, and stability. This practice helped me clearly understand when and why different sorting techniques are chosen in real software systems.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 📚 Implemented Bubble Sort, Insertion Sort, and Selection Sort for simple, small-scale datasets such as marks, employee IDs, and exam scores.
+2. ⚡ Applied Quick Sort and Merge Sort for faster, divide-and-conquer sorting of large datasets like book and product prices.
+3. 🏗 Built a Heap Sort solution to efficiently organize salary data using heap operations and max-heap logic.
+4. 🎯 Used Counting Sort for fixed-range numeric data such as student ages, ensuring linear-time performance.
+5. 🧠 Strengthened understanding of sorting stability, time complexities, recursion, and practical use-cases for each sorting algorithm.
+
+Link to the Solution :- [sorting algorithms](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)
