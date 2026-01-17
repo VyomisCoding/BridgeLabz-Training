@@ -41,7 +41,8 @@
 |   |   |
 |   |   ├──💻 linkedlist/
 |   |   ├──💻 stacks-queue-hashmap/
-|   |   └──💻 sorting/
+|   |   ├──💻 sorting/
+|   |   └──💻 searching/  
 |   |
 |   ├── 📁 leet-code-codebase/
 |   |
@@ -363,3 +364,17 @@ Today, I focused on mastering Sorting Algorithms in Java by implementing multipl
 5. 🧠 Strengthened understanding of sorting stability, time complexities, recursion, and practical use-cases for each sorting algorithm.
 
 Link to the Solution :- [sorting algorithms](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/sorting)
+
+## DAY-25 (16-1-2026)
+
+Today, I focused on mastering Linear Search and Binary Search techniques in Java by solving multiple real-world, scenario-based problems. These exercises strengthened my understanding of sequential vs logarithmic search, edge-case handling, and search optimization in both 1D and 2D arrays.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 🔍 Solved Linear Search problems: First Negative Number and Search Word in Sentences.
+2. ⚙️ Implemented Binary Search logic for Find Rotation Point and Find Peak Element.
+3. 🧩 Applied binary search on matrices with Search in 2D Sorted Matrix.
+4. 🎯 Handled boundary cases using First and Last Occurrence in Sorted Array.
+5. 🔥 Completed a Challenge Problem: First Missing Positive (Linear) + Target Index Search (Binary).
+
+Link to the solution :- [searching algorithm](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/searching)
