@@ -378,3 +378,17 @@ Today, I focused on mastering Linear Search and Binary Search techniques in Java
 5. 🔥 Completed a Challenge Problem: First Missing Positive (Linear) + Target Index Search (Binary).
 
 Link to the solution :- [searching algorithm](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/searching)
+
+## DAY-26 (17-1-2026)
+
+Today, I focused on mastering String handling and File I/O operations in Java by implementing multiple real-world, scenario-based problems using StringBuilder, StringBuffer, FileReader, and InputStreamReader. These exercises strengthened my understanding of mutable string classes, efficient concatenation, stream conversions, and file-reading mechanisms.
+
+🔑 Key Highlights of Today’s Work
+
+1. 🧵 Practiced StringBuilder operations through Reverse String and Remove Duplicates problems.
+2. ⚡ Implemented StringBuffer tasks including Efficient Concatenation and Performance Comparison with StringBuilder.
+3. 📄 Solved FileReader problems such as Read File Line-by-Line and Count Word Occurrences.
+4. 🔌 Worked with InputStreamReader for Byte-to-Character Stream Conversion and Reading User Input to Write into Files.
+5. 🔥 Completed a Challenge Problem comparing StringBuilder vs StringBuffer and FileReader vs InputStreamReader on large datasets.
+
+Link to the solution :- [searching algorithm](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/searching)
