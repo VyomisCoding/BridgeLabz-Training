@@ -2,6 +2,7 @@
 
 import java.util.*;
 public class CompareLinearAndBinarySearch{
+    
     public static int linearSearch(int[] arr, int target){   // Linear Search
         for(int i=0;i<arr.length;i++){
             if(arr[i] == target)
