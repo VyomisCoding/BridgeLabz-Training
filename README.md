@@ -40,9 +40,10 @@
 |   ├── 📁 gcr-codebase/
 |   |   |
 |   |   ├──💻 linkedlist/
-|   |   ├──💻 stacks-queue-hashmap/
+|   |   ├──💻 runtime-analysis/ 
+|   |   ├──💻 searching/
 |   |   ├──💻 sorting/
-|   |   └──💻 searching/  
+|   |   └──💻 stack-queue-hashmap/  
 |   |
 |   ├── 📁 leet-code-codebase/
 |   |
@@ -392,3 +393,17 @@ Today, I focused on mastering String handling and File I/O operations in Java by
 5. 🔥 Completed a Challenge Problem comparing StringBuilder vs StringBuffer and FileReader vs InputStreamReader on large datasets.
 
 Link to the solution :- [searching algorithm](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/searching)
+
+## DAY-27 (19-1-2026)
+
+Today, I focused on mastering algorithm and data-structure performance analysis in Java by comparing time complexities across searching, sorting, string operations, file handling, and numeric computation. These scenario-based experiments helped me understand how algorithmic choices impact efficiency on large datasets.
+
+🔑 Key Highlights of Today’s Work
+
+1. ⚡ Compared Linear Search vs Binary Search performance on large datasets to observe O(N) vs O(log N) behavior.
+2. 📊 Analyzed sorting efficiency by benchmarking Bubble Sort, Merge Sort, and Quick Sort on increasing dataset sizes.
+3. 🧵 Evaluated string concatenation speed using String vs StringBuilder vs StringBuffer, highlighting immutability costs.
+4. 📄 Compared file-reading efficiency between FileReader and InputStreamReader for large file processing.
+5. 🧠 Benchmarked Recursive vs Iterative Fibonacci and compared search performance in Array vs HashSet vs TreeSet.
+
+Link to the solutions :- [runtime-analysis](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/runtime-analysis)
