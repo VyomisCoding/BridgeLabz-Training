@@ -407,3 +407,18 @@ Today, I focused on mastering algorithm and data-structure performance analysis 
 5. 🧠 Benchmarked Recursive vs Iterative Fibonacci and compared search performance in Array vs HashSet vs TreeSet.
 
 Link to the solutions :- [runtime-analysis](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/runtime-analysis)
+
+## DAY-28 (20-1-2026)
+
+Today, I focused on mastering Core Java, OOP, and DSA integration by building multiple real-world scenario-based systems involving Linked Lists, Stacks, Queues, HashMaps, and abstract class hierarchies. These problems strengthened my understanding of data-structure driven system design, pointer manipulation, and clean OOP architecture using abstraction, polymorphism, and immutability.
+
+🔑 Key Highlights of Today’s Work
+
+1. 🚦 Built TrafficManager using a Circular Linked List + Queue for dynamic roundabout flow.
+2. 📚 Designed BookShelf using HashMap + LinkedList for genre-wise cataloging and fast updates.
+3. 🌐 Implemented BrowserBuddy using Doubly Linked List + Stack for tab history and restore operations.
+4. 📦 Created ParcelTracker with a Singly Linked List for parcel stage tracking and checkpoint addition.
+5. 📝 Developed ExamProctor using Stack + HashMap for navigation tracking and score evaluation.
+6. 🏦 Applied OOP immutability and polymorphism in BankAccount and Employee Role hierarchies.
+
+Link to the solutions :- [DSA Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
