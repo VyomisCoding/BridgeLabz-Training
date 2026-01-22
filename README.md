@@ -48,7 +48,18 @@
 |   ├── 📁 leet-code-codebase/
 |   |
 |   └── 📁 scenario-based/
-|   
+|
+├── 📁 collection-practice/
+|   |
+|   ├── 📁 gcr-codebase/
+|   |   |
+|   |   ├──💻 generics/ 
+|   |   └──💻 collections/
+|   | 
+|   ├── 📁 leet-code-codebase/
+|   |
+|   └── 📁 scenario-based/
+|
 |
 └── 📄README.md
 ```
@@ -422,3 +433,17 @@ Today, I focused on mastering Core Java, OOP, and DSA integration by building mu
 6. 🏦 Applied OOP immutability and polymorphism in BankAccount and Employee Role hierarchies.
 
 Link to the solutions :- [DSA Scenario Based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/dsa-practice/dsa-practice/scenario-based)
+
+## DAY-29 (21-1-2026)
+
+Today, I focused on mastering Java Generics, bounded type parameters, wildcards, and type-safe design by implementing multiple real-world, scenario-based systems. These problems strengthened my understanding of reusable generic classes, flexible wildcard handling, and safe object hierarchies in large applications.
+
+🔑 Key Highlights of Today’s Work
+
+1. 📦 Implemented a Smart Warehouse System using Storage<T extends WarehouseItem> and wildcard lists for managing Electronics, Groceries, and Furniture safely.
+2. 🛍️ Developed a Dynamic Online Marketplace with generic Product<T> classes and bounded generic discount methods.
+3. 🏫 Built a University Course Management System using Course<T extends CourseType> and wildcard lists for flexible department course handling.
+4. 🥗 Created a Personalized Meal Plan Generator using generic Meal<T extends MealPlan> and type-safe meal validation methods.
+5. 🧠 Designed an AI-Driven Resume Screening System using Resume<T extends JobRole> with wildcard pipelines for multi-role processing.
+
+Link to the solutions :- [Generics](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/generics)
