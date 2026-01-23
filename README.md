@@ -3,8 +3,8 @@
 📦Project Structure:
 ```
 📂 BridgeLabz-Training/
-│
-├── 📁 core-java-practice/        (Branch & Folder Name)
+│                                                                       
+├── 📁 core-java-practice/        (Branch & Folder Name)               
 │   │
 │   ├── 📁 gcr-codebase/
 |   |   |
@@ -48,6 +48,7 @@
 |   ├── 📁 leet-code-codebase/
 |   |
 |   └── 📁 scenario-based/
+|
 |
 ├── 📁 collection-practice/
 |   |
@@ -447,3 +448,18 @@ Today, I focused on mastering Java Generics, bounded type parameters, wildcards,
 5. 🧠 Designed an AI-Driven Resume Screening System using Resume<T extends JobRole> with wildcard pipelines for multi-role processing.
 
 Link to the solutions :- [Generics](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/generics)
+
+## DAY-30(22-1-2026)
+
+Today, I focused on building a modular Address Book System in Java using Core OOP concepts, collections, branching workflow in Git, and console-driven CRUD operations. Each use case strengthened my understanding of class design, data management, and multi-address-book handling.
+
+🔑 Key Highlights of Today’s Work
+
+1. 📔 Implemented Contact creation with fields like name, address, city, state, zip, phone, and email using clean OOP structure.
+2. ✏️ Added the ability to edit existing contacts using their name through console-based input.
+3. 🗑️ Built functionality to delete a contact by name, ensuring safe data updates.
+4. 👥 Developed support for multiple contacts in a single Address Book using Java Collections.
+5. 📚 Extended the system to multiple Address Books, uniquely identified and maintained using a Dictionary/Map.
+6. 🔧 Followed proper branching, naming conventions, and code hygiene, merging each UC from feature branch to master.
+
+Link to the Solutions: [Address Book Problem](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/Address-Book-Problem)
