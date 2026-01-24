@@ -462,4 +462,17 @@ Today, I focused on building a modular Address Book System in Java using Core OO
 5. 📚 Extended the system to multiple Address Books, uniquely identified and maintained using a Dictionary/Map.
 6. 🔧 Followed proper branching, naming conventions, and code hygiene, merging each UC from feature branch to master.
 
-Link to the Solutions: [Address Book Problem](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/Address-Book-Problem)
+Link to the solutions: [Address Book Problem](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/Address-Book-Problem)
+
+##DAY-31(23-1-2026)
+
+Today, I focused on mastering Java Collection Framework (List, Set, Queue, Map) by building multiple real-world, scenario-based systems involving data manipulation, uniqueness handling, priority processing, buffering, and key–value management. These problems strengthened my understanding of collection behaviors, performance differences, and real-life system modeling using Core Java.
+
+1. 📋 Practiced List operations including reverse, rotate, remove duplicates, frequency count, and Nth-from-end retrieval.
+2. 🧮 Implemented Set features like equality check, union/intersection, symmetric difference, subset validation, and sorted-list conversion.
+3. 🔁 Built Queue-based systems such as queue reversal, binary number generator, hospital triage (PriorityQueue), stack using queues, and circular buffer.
+4. 🗂 Applied Map operations including word frequency, map inversion, max-value key, map merge, and grouping objects.
+5. 🛡 Designed Insurance Policy Management using HashSet/LinkedHashSet/TreeSet and Map variations for storing, sorting, and filtering policies.
+6. 🛒 Implemented real systems like Voting System, Shopping Cart, and Banking System using HashMap, LinkedHashMap, TreeMap, and Queue workflows.
+
+Link to the solutions :- [Collections](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/collections)
