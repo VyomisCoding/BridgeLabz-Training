@@ -50,12 +50,14 @@
 |   └── 📁 scenario-based/
 |
 |
-├── 📁 collection-practice/
+├── 📁 collection-practice/       (Branch & Folder Name)
 |   |
 |   ├── 📁 gcr-codebase/
 |   |   |
 |   |   ├──💻 generics/ 
-|   |   └──💻 collections/
+|   |   ├──💻 collections/
+|   |   ├──💻 java-streams/
+|   |   └──💻 exceptions/
 |   | 
 |   ├── 📁 leet-code-codebase/
 |   |
@@ -464,7 +466,7 @@ Today, I focused on building a modular Address Book System in Java using Core OO
 
 Link to the solutions: [Address Book Problem](https://github.com/VyomisCoding/BridgeLabz-Training/tree/oops-practice/oops-practice/gcr-codebase/Address-Book-Problem)
 
-##DAY-31(23-1-2026)
+## DAY-31(23-1-2026)
 
 Today, I focused on mastering Java Collection Framework (List, Set, Queue, Map) by building multiple real-world, scenario-based systems involving data manipulation, uniqueness handling, priority processing, buffering, and key–value management. These problems strengthened my understanding of collection behaviors, performance differences, and real-life system modeling using Core Java.
 
@@ -476,3 +478,18 @@ Today, I focused on mastering Java Collection Framework (List, Set, Queue, Map) 
 6. 🛒 Implemented real systems like Voting System, Shopping Cart, and Banking System using HashMap, LinkedHashMap, TreeMap, and Queue workflows.
 
 Link to the solutions :- [Collections](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/collections)
+
+## DAY-32 (26-1-2026)
+
+Today, I focused on strengthening my expertise in Java File Handling and I/O Streams by implementing a variety of real-world operations, including reading, writing, copying, serializing, filtering, and efficiently processing large files. This helped me build a solid understanding of stream-based data management and performance-optimized file operations in Java.
+
+🔑 Key Highlights of Today’s Work :-
+
+1. 📄 Performed file read/write operations using FileInputStream, FileOutputStream, and proper exception handling.
+2. ⚡ Implemented efficient large-file copying using BufferedInputStream/BufferedOutputStream with performance comparison.
+3. ⌨️ Captured user console input via BufferedReader and stored the data into files using FileWriter.
+4. 🧩 Built object serialization/deserialization to save and retrieve Employee objects using Object streams.
+5. 🖼 Created ByteArray stream programs to convert images to byte arrays and reconstruct them.
+6. 🔍 Processed large text files using BufferedReader to detect errors, count words, and display top frequent entries.
+
+Link to the solutions :- [Java Streams](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java-streams)
