@@ -493,3 +493,18 @@ Today, I focused on strengthening my expertise in Java File Handling and I/O Str
 6. 🔍 Processed large text files using BufferedReader to detect errors, count words, and display top frequent entries.
 
 Link to the solutions :- [Java Streams](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java-streams)
+
+## DAY-33 (27-1-2026)
+
+Today, I focused on mastering Java Exception Handling by implementing multiple real-world, scenario-based programs involving checked exceptions, runtime exceptions, custom exceptions, nested try-catch blocks, exception propagation, and resource management. These exercises strengthened my understanding of robust error handling and fail-safe program design.
+
+🔑 Key Highlights of Today’s Work
+
+1. ⚠️ Implemented checked and unchecked exception handling for file reading, user input, and arithmetic operations.
+2. 🧩 Created and used custom exceptions like InvalidAgeException and InsufficientBalanceException in real-world flows.
+3. 🔗 Practiced multiple catch blocks and nested try-catch to safely handle array, null, and division-related errors.
+4. 🔁 Applied try-with-resources for safe, automatic resource closing during file operations.
+5. 📤 Explored throw vs throws and exception propagation across multiple methods to understand call-chain behavior.
+6. 🏦 Built a Bank Transaction System combining checked + custom exceptions for secure withdrawals and validations.
+
+Link to the solutions :- [Exceptions](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
