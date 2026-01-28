@@ -40,7 +40,7 @@ public class LexicalTwist{
                         consonantCount++;
                 }
             }
-
+            
             // Based on Comparison-----------------------------------------------
             if(vowelCount > consonantCount){
                 StringBuilder result = new StringBuilder();                      // Print first 2 unique vowels
