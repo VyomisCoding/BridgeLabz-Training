@@ -498,7 +498,7 @@ Link to the solutions :- [Java Streams](https://github.com/VyomisCoding/BridgeLa
 
 Today, I focused on mastering Java Exception Handling by implementing multiple real-world, scenario-based programs involving checked exceptions, runtime exceptions, custom exceptions, nested try-catch blocks, exception propagation, and resource management. These exercises strengthened my understanding of robust error handling and fail-safe program design.
 
-🔑 Key Highlights of Today’s Work
+🔑 Key Highlights of Today’s Work :-
 
 1. ⚠️ Implemented checked and unchecked exception handling for file reading, user input, and arithmetic operations.
 2. 🧩 Created and used custom exceptions like InvalidAgeException and InsufficientBalanceException in real-world flows.
@@ -508,3 +508,14 @@ Today, I focused on mastering Java Exception Handling by implementing multiple r
 6. 🏦 Built a Bank Transaction System combining checked + custom exceptions for secure withdrawals and validations.
 
 Link to the solutions :- [Exceptions](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
+
+## DAY-34 (28-01-2026)
+
+Today, I focused on strengthening my understanding of Core Java Collections, OOP, and Exception Handling by implementing real-world systems involving reservations and task scheduling. These exercises helped me apply Maps, Lists, PriorityQueues, and custom exceptions in practical application design.
+
+🔑 Key Highlights of Today’s Work :-
+
+1. 🍽️ Built a Restaurant Table Reservation System using Map and List to manage tables, prevent double bookings, and handle errors using custom exceptions.
+2. 💾 Implemented a File Backup Scheduler using PriorityQueue, Comparable, and custom validation to prioritize and execute backup tasks efficiently.
+
+Link to the solution :- [Scenario based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based)
