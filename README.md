@@ -57,12 +57,21 @@
 |   |   ├──💻 generics/ 
 |   |   ├──💻 collections/
 |   |   ├──💻 java-streams/
-|   |   └──💻 exceptions/
-|   | 
-|   ├── 📁 leet-code-codebase/
+|   |   ├──💻 exceptions/
+|   |   ├──💻 annotations/
+|   |   ├──💻 reflections/
+|   |   └──💻 regex-junit/ 
+|   |
 |   |
 |   └── 📁 scenario-based/
 |
+|
+├── 📁 io-programming-practice/    (Branch & Folder Name)
+|   |
+|   └── 📁 gcr-codebase/
+|        | 
+|        └──💻 CSVDataHandling/
+| 
 |
 └── 📄README.md
 ```
@@ -519,3 +528,48 @@ Today, I focused on strengthening my understanding of Core Java Collections, OOP
 2. 💾 Implemented a File Backup Scheduler using PriorityQueue, Comparable, and custom validation to prioritize and execute backup tasks efficiently.
 
 Link to the solution :- [Scenario based](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/scenario-based)
+
+## DAY-35 (29-01-2026)
+
+Today, I focused on mastering Java Annotations by implementing built-in, custom, repeatable, and advanced annotations across multiple real-world scenarios. These exercises strengthened my understanding of annotation processing, reflection-based metadata handling, validation logic, and role-based access control.
+
+🔑 Key Highlights of Today’s Work
+
+1. 📝 Practiced core annotations like @Override, @Deprecated, and @SuppressWarnings across class hierarchies and generic collections.
+2. 🏷️ Created custom annotations such as @TaskInfo, @ImportantMethod, @Todo, and retrieved metadata using Reflection API.
+3. 🔁 Implemented repeatable annotations like @BugReport to track multiple issues on a method.
+4. ⏱️ Developed advanced annotations including @LogExecutionTime for performance measurement.
+5. 🛡 Added field validation using @MaxLength and implemented role-based access control with @RoleAllowed.
+6. 📦 Built annotation-driven systems like custom JSON serialization (@JsonField) and method-result caching (@CacheResult).
+
+Link to the solutions :- [Annotations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/annotations)
+
+## DAY-36 (30-01-2026)
+
+Today, I focused on mastering Java Reflection API by implementing multiple real-world, scenario-based problems involving class inspection, private access, dynamic invocation, annotation processing, object mapping, proxies, and dependency injection. These exercises strengthened my understanding of runtime introspection and dynamic behavior in Java.
+
+🔑 Key Highlights of Today’s Work
+
+1. 🔍 Explored class metadata by retrieving methods, fields, constructors, and dynamically creating objects.
+2. 🔐 Practiced accessing and modifying private fields and methods, including static configuration values.
+3. ⚙️ Implemented dynamic method invocation and annotation retrieval using Reflection.
+4. 🧩 Built advanced utilities like a custom object mapper and JSON generator using runtime field inspection.
+5. 🛰️ Developed dynamic proxies for logging and monitoring method calls in interfaces.
+6. 💉 Implemented dependency injection and method execution timing using reflection-based scanning and invocation.
+
+Link to the solutions :- [Reflections](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflection)
+
+## DAY-37 (02-02-2026)
+
+Today, I focused on mastering CSV Data Handling in Java by implementing multiple real-world problems involving reading, writing, filtering, sorting, validating, merging, and converting CSV data. These exercises strengthened my understanding of stream processing, data transformation, regex validation, object mapping, and handling large datasets efficiently.
+
+🔑 Key Highlights of Today’s Work
+
+1. 📄 Practiced reading, writing, counting, filtering, and searching CSV data using efficient file-handling techniques.
+2. 🔁 Implemented CSV modification tasks including salary updates, record sorting, and handling data with conditions.
+3. 🧪 Built data validation mechanisms for emails and phone numbers using regex and printed invalid rows.
+4. 🧱 Converted CSV rows into Java objects, detected duplicate entries, and merged multiple CSV files by ID.
+5. ⚡ Designed large-file processing logic to handle 500MB+ CSV files in chunks of 100 lines.
+6. 🔀 Implemented CSV–JSON conversions, database-to-CSV export, and encryption/decryption of sensitive CSV fields.
+
+Link to the solutions :- [CSV DataHandling](https://github.com/VyomisCoding/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/CSVDataHandling)
