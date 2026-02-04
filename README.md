@@ -501,7 +501,7 @@ Today, I focused on strengthening my expertise in Java File Handling and I/O Str
 5. 🖼 Created ByteArray stream programs to convert images to byte arrays and reconstruct them.
 6. 🔍 Processed large text files using BufferedReader to detect errors, count words, and display top frequent entries.
 
-Link to the solutions :- [Java Streams](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java-streams)
+Link to the solutions :- [Java I/O Streams](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/java-streams)
 
 ## DAY-33 (27-1-2026)
 
@@ -531,6 +531,36 @@ Link to the solution :- [Scenario based](https://github.com/VyomisCoding/BridgeL
 
 ## DAY-35 (29-01-2026)
 
+Today, I focused on mastering Java Regular Expressions (Regex) by solving multiple real-world problems involving validation, extraction, replacement, pattern matching, and text processing. These exercises strengthened my understanding of regex syntax, grouping, quantifiers, character classes, and pattern-based string manipulation in Java.
+
+🔑 Key Highlights of Today’s Work:-
+
+1. 🧩 Implemented regex validations for usernames, license plates, hex codes, IPs, credit cards, and SSNs.
+2. 🔍 Performed pattern extraction like emails, dates, links, currencies, languages, and capitalized words.
+3. ♻️ Applied string modifications such as collapsing spaces and censoring bad words using regex replace.
+4. 🔁 Detected repeated words and handled structured pattern searches in text.
+5. 📦 Worked on advanced parsing tasks for complex pattern recognition and formatted data extraction.
+6. 🧠 Strengthened understanding of Pattern–Matcher, groups, quantifiers, and efficient regex handling.
+
+Link to the solution:- [Java Regular Expressions (Regex)](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-junit/regex-problems)
+
+## DAY-36 (30-01-2026)
+
+Today, I focused on mastering JUnit Testing in Java by writing structured unit tests for different real-world scenarios, covering method validation, exception handling, file operations, parameterized tests, lifecycle annotations, and performance constraints.
+
+🔑 Key Highlights of Today’s Work
+
+1. 🧪 Wrote JUnit tests for Calculator, String utilities, and List operations, validating correctness across multiple inputs.
+2. ⚠️ Tested exception handling such as division by zero and invalid operations using assertThrows.
+3. 🛠 Practiced JUnit lifecycle with @BeforeEach and @AfterEach to simulate database setup and teardown.
+4. 🔢 Implemented parameterized tests to efficiently test multiple even/odd values.
+5. ⏱️ Performed performance testing using @Timeout to validate long-running tasks.
+6. 📄 Tested file handling methods, banking transactions, password validation, date formatting, and user registration through robust unit tests.
+
+Link to the solutions:- [JUnit](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-junit/junit-problems)
+
+## DAY-37 (02-02-2026)
+
 Today, I focused on mastering Java Annotations by implementing built-in, custom, repeatable, and advanced annotations across multiple real-world scenarios. These exercises strengthened my understanding of annotation processing, reflection-based metadata handling, validation logic, and role-based access control.
 
 🔑 Key Highlights of Today’s Work
@@ -544,7 +574,7 @@ Today, I focused on mastering Java Annotations by implementing built-in, custom,
 
 Link to the solutions :- [Annotations](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/annotations)
 
-## DAY-36 (30-01-2026)
+## DAY-38 (03-02-2026)
 
 Today, I focused on mastering Java Reflection API by implementing multiple real-world, scenario-based problems involving class inspection, private access, dynamic invocation, annotation processing, object mapping, proxies, and dependency injection. These exercises strengthened my understanding of runtime introspection and dynamic behavior in Java.
 
@@ -559,7 +589,7 @@ Today, I focused on mastering Java Reflection API by implementing multiple real-
 
 Link to the solutions :- [Reflections](https://github.com/VyomisCoding/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflection)
 
-## DAY-37 (02-02-2026)
+## DAY-37 (04-02-2026)
 
 Today, I focused on mastering CSV Data Handling in Java by implementing multiple real-world problems involving reading, writing, filtering, sorting, validating, merging, and converting CSV data. These exercises strengthened my understanding of stream processing, data transformation, regex validation, object mapping, and handling large datasets efficiently.
 
