@@ -53,8 +53,7 @@ public class BankingSystem {
         Thread t4 = new Thread(new Transaction(account, 5000, "Customer-4"), "Customer-4");
         Thread t5 = new Thread(new Transaction(account, 1500, "Customer-5"), "Customer-5");
 
-        // Display thread states before start
-        System.out.println("Thread States Before Execution:");
+        System.out.println("Thread States Before Execution:");     // Display thread states before start
         System.out.println(t1.getName() + " : " + t1.getState());
         System.out.println(t2.getName() + " : " + t2.getState());
         System.out.println(t3.getName() + " : " + t3.getState());
