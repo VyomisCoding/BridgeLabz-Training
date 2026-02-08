@@ -71,7 +71,33 @@
 |   └── 📁 gcr-codebase/
 |        | 
 |        └──💻 CSVDataHandling/
-| 
+|        └──💻 json/
+|
+|
+├── 📁 java8-feature-practice/     (Branch & Folder Name)
+|   |
+|   └── 📁 gcr-codebase/
+|       | 
+|       └──💻 collectors/
+|       └──💻 functional-interface/
+|       └──💻 lambda-expression/
+|       └──💻 stream-api/
+|
+|
+├── 📁 design-pattern-practice/      (Branch & Folder Name)
+|   |
+|   └── 📁 gcr-codebase/
+|       |
+|       └── 💻 smart-library-management/
+|
+|
+├── 📁 multithreading-practice/      (Branch & Folder Name) 
+|   |
+|   └── 📁 gcr-codebase/
+|       |
+|       └── 💻 multithreading/
+|
+|
 |
 └── 📄README.md
 ```
