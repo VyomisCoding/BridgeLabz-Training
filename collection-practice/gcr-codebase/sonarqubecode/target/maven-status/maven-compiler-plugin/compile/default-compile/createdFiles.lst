@@ -1,0 +1,7 @@
+com\example\FraudStatus.class
+com\example\UserService.class
+com\example\InvalidAmountException.class
+com\example\Transaction.class
+com\example\UserBlockedException.class
+com\example\TransactionRepository.class
+com\example\FraudDetectionService.class

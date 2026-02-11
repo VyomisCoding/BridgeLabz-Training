@@ -1,0 +1,6 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+sonarqubecode,com.example,UserBlockedException,0,4,0,0,0,2,0,1,0,1
+sonarqubecode,com.example,Transaction,3,24,0,0,1,9,1,4,1,4
+sonarqubecode,com.example,FraudDetectionService,0,71,1,11,0,17,1,7,0,2
+sonarqubecode,com.example,FraudStatus,0,15,0,0,0,3,0,1,0,1
+sonarqubecode,com.example,InvalidAmountException,0,4,0,0,0,2,0,1,0,1
