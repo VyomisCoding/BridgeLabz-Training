@@ -1,3 +1,5 @@
+package com.example;
+
 public class Program {
 
     private double balance;
@@ -23,4 +25,5 @@ public class Program {
         }
         balance-=amount;
 
-        }    }
+    }    
+}
