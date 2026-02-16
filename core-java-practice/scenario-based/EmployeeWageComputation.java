@@ -1,116 +1,156 @@
-import java.util.*;
-public class EmployeeWageComputation {
-	
-	static final int isPartTime = 1;
-    static final int isFullTime = 2;
-    static final int wagePerHour = 20;
-    static final int fullDayHour = 8;
-    static final int partTimeHour = 8;
-    static final int workingDaysPerMonth = 20;
-    static final int maxWorkingHours = 100;
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
 
-    static Random random = new Random();
-    
-	public static void main(String[] args){
-		
-		displayWelcomeMessage();
-        checkEmployeeAttendance();            // Use Case 1
-        calculateDailyWage();                 // Use Case 2
-        calculatePartTimeWage();              // Use Case 3
-        calculateWageUsingSwitch();           // Use Case 4
-        calculateMonthlyWage();               // Use Case 5
-        calculateWageWithCondition();         // Use Case 6
-       
-	}
-	// ---------------- USE CASE 0 ( Display Welcome Message )--------------------------------------------------------------------------------
-	
-    static void displayWelcomeMessage() {
-        System.out.println("Welcome to Employee Wage Computation Program on Master Branch\n");
-    }
-    
-    // ---------------- USE CASE 1 ( Check Employee is Present or Absent )----------------------------------------------------------------------
-    
-    static void checkEmployeeAttendance() {
-        int attendance = random.nextInt(2);
+// UC 11 - Interface ---------------------------------------------------------------------
+interface IEmpWageBuilder{
+    void addCompany(String companyName, int wagePerHour, int workingDays, int maxHours);
+    void computeWage();
+    int getTotalWage(String companyName);
+}
 
-        if (attendance == 1) {
-            System.out.println("USE CASE 1: Employee is Present");
-        } else {
-            System.out.println("USE CASE 1: Employee is Absent");
-        }
-    }
-    
-    // ---------------- USE CASE 2 ( Calculate Daily Employee Wage (Full Time) ) -------------------------------------------------------------
+// UC 9 - Company Class ------------------------------------------------------
+class CompanyEmpWage{
+    private final String companyName;
+    private final int wagePerHour;
+    private final int workingDays;
+    private final int maxHours;
+    private int totalWage;
+    private ArrayList<Integer> dailyWageList;   // UC 13
 
-    static void calculateDailyWage() {
-        int dailyWage = fullDayHour * wagePerHour;
-        System.out.println("USE CASE 2: Daily Employee Wage = " + dailyWage);
+    public CompanyEmpWage(String companyName, int wagePerHour, int workingDays, int maxHours){
+        this.companyName = companyName;
+        this.wagePerHour = wagePerHour;
+        this.workingDays = workingDays;
+        this.maxHours = maxHours;
+        this.dailyWageList = new ArrayList<>();
     }
 
-    // ---------------- USE CASE 3 ( Calculate Part Time Employee Wage )----------------------------------------------------------------------
-    
-    static void calculatePartTimeWage() {
-        int partTimeWage = partTimeHour * wagePerHour;
-        System.out.println("USE CASE 3: Part Time Employee Wage = " + partTimeWage);
+    public void addDailyWage(int dailyWage){
+        dailyWageList.add(dailyWage);
     }
-    
-    // ---------------- USE CASE 4 ( Solve using Switch Case )-------------------------------------------------------------------------------
-    
-    static void calculateWageUsingSwitch() {
-        int empType = random.nextInt(3);
-        int empHours;
 
-        switch (empType) {
-            case isPartTime:
-                empHours = partTimeHour;
-                System.out.println("USE CASE 4: Employee is Part Time");
-                break;
-
-            case isFullTime:
-                empHours = fullDayHour;
-                System.out.println("USE CASE 4: Employee is Full Time");
-                break;
-
-            default:
-                empHours = 0;
-                System.out.println("USE CASE 4: Employee is Absent");
-        }
-        int wage = empHours * wagePerHour;
-        System.out.println("USE CASE 4: Wage using Switch Case = " + wage);
+    public void setTotalWage(int totalWage){
+        this.totalWage = totalWage;
     }
-    
-    // ---------------- USE CASE 5 ( Calculate Monthly Wage (20 Working Days) )---------------------------------------------------------------
 
-    static void calculateMonthlyWage() {
-        int monthlyWage = workingDaysPerMonth * fullDayHour * wagePerHour;
-        System.out.println("USE CASE 5: Monthly Wage = " + monthlyWage);
+    public int getTotalWage(){
+        return totalWage;
     }
-    
-    // ---------------- USE CASE 6 ( Calculate Wages till Max Hours or Days Reached )---------------------------------------------------------
 
-    static void calculateWageWithCondition() {
-        int totalHours = 0;
-        int totalDays = 0;
-        while (totalHours < maxWorkingHours && totalDays < workingDaysPerMonth) {
-            totalDays++;
-            int empType = random.nextInt(3);
-            int empHours;
-            switch (empType) {
-                case isPartTime:
-                    empHours = partTimeHour;
-                    break;
+    public String getCompanyName(){
+        return companyName;
+    }
 
-                case isFullTime:
-                    empHours = fullDayHour;
-                    break;
-                default:
-                    empHours = 0;
+    public int getWagePerHour(){
+        return wagePerHour;
+    }
+
+    public int getWorkingDays(){
+        return workingDays;
+    }
+
+    public int getMaxHours(){
+        return maxHours;
+    }
+
+    public void printDailyWages(){
+        System.out.println("Daily Wages: " + dailyWageList);
+    }
+}
+
+// UC 7–14 - EmpWageBuilder ------------------------------------------------------------------
+class EmpWageBuilder implements IEmpWageBuilder{
+    private static final int IS_PART_TIME = 1;
+    private static final int IS_FULL_TIME = 2;
+    private ArrayList<CompanyEmpWage> companyList;   // UC 12
+    private Random random;
+
+    public EmpWageBuilder(){
+        companyList = new ArrayList<>();
+        random = new Random();
+    }
+
+    // UC 8 ------------------------------------------------------------------------------------
+    public void addCompany(String companyName, int wagePerHour, int workingDays, int maxHours){
+        companyList.add(new CompanyEmpWage(companyName, wagePerHour, workingDays, maxHours));
+    }
+
+    // UC 7, 10 --------------------------------------------------------------------------------
+    public void computeWage(){
+        for (CompanyEmpWage company : companyList){
+            int totalHours = 0;
+            int totalDays = 0;
+            while(totalHours < company.getMaxHours() && totalDays < company.getWorkingDays()){
+                totalDays++;
+                int empType = random.nextInt(3);
+                int empHours = 0;
+                switch(empType){
+                    case IS_PART_TIME:
+                        empHours = 4;
+                        break;
+                    case IS_FULL_TIME:
+                        empHours = 8;
+                        break;
+                    default:
+                        empHours = 0;
+                }
+                totalHours += empHours;
+                int dailyWage = empHours * company.getWagePerHour();
+                company.addDailyWage(dailyWage);   // UC 13
             }
-            totalHours += empHours;
+            int totalWage = totalHours * company.getWagePerHour();
+            company.setTotalWage(totalWage);
+            System.out.println("\nCompany: " + company.getCompanyName());
+            System.out.println("Total Days Worked: " + totalDays);
+            System.out.println("Total Hours Worked: " + totalHours);
+            System.out.println("Total Wage: " + totalWage);
+            company.printDailyWages();
         }
-        int totalWage = totalHours * wagePerHour;
-        System.out.println("USE CASE 6: Total Working Days = " + totalDays);
-        System.out.println("USE CASE 6: Total Working Hours = " + totalHours);
-        System.out.println("USE CASE 6: Total Monthly Wage = " + totalWage);
+    }
+
+    // UC 14 -------------------------------------------------------------------------------------
+    public int getTotalWage(String companyName){
+        for(CompanyEmpWage company : companyList){
+            if(company.getCompanyName().equals(companyName)){
+                return company.getTotalWage();
+            }
+        }
+        return 0;
+    }
+}
+
+// Main Class
+public class EmployeeWageComputation{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome to Employee Wage Computation\n");
+        EmpWageBuilder builder = new EmpWageBuilder();
+        System.out.print("Enter number of companies: ");
+        int numberOfCompanies = sc.nextInt();
+        sc.nextLine();  // clear buffer
+        for(int i=1;i<=numberOfCompanies;i++){
+            System.out.println("\nEnter details for Company " + i);
+            System.out.print("Company Name: ");
+            String name = sc.nextLine();
+            System.out.print("Wage Per Hour: ");
+            int wagePerHour = sc.nextInt();
+            System.out.print("Working Days Per Month: ");
+            int workingDays = sc.nextInt();
+            System.out.print("Max Working Hours Per Month: ");
+            int maxHours = sc.nextInt();
+            sc.nextLine();  // clear buffer
+            builder.addCompany(name, wagePerHour, workingDays, maxHours);
+        }
+        builder.computeWage();
+        // UC 14 - Query --------------------------------------------------------------
+        System.out.print("\nEnter company name to get total wage: ");
+        String queryCompany = sc.nextLine();
+        int wage = builder.getTotalWage(queryCompany);
+        if(wage != -1){
+            System.out.println("Total Wage of " + queryCompany + " is: " + wage);
+        }else{
+            System.out.println("Company not found.");
+        }
     }
 }
